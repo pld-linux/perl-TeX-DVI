@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	TeX
 %define	pnam	DVI
-%include	/usr/lib/rpm/macros.perl
 Summary:	TeX-DVI perl module
 Summary(pl):	Modu³ perla TeX-DVI
 Name:		perl-TeX-DVI
 Version:	0.101
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ TeX-DVI - writes out, parses and prints the content of DVI files.
 TeX-DVI - modu³ do operowania na plikach DVI.
 
 %prep
-%setup -q -n TeX-DVI-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
