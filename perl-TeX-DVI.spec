@@ -2,12 +2,12 @@
 Summary:	TeX-DVI perl module
 Summary(pl):	Modu³ perla TeX-DVI
 Name:		perl-TeX-DVI
-Version:	0.052
-Release:	3
-Copyright:	GPL
+Version:	0.100
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/TeX/TeX-DVI-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/TeX/TeX-DVI-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 BuildRequires:	perl-Font-TFM
