@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	TeX
-%define	pnam	DVI
+%define		pdir	TeX
+%define		pnam	DVI
 Summary:	TeX::DVI perl module
 Summary(pl):	Modu³ perla TeX::DVI
 Name:		perl-TeX-DVI
