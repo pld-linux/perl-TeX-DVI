@@ -28,7 +28,7 @@ TeX::DVI - modu³ do operowania na plikach DVI.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
