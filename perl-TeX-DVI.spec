@@ -3,7 +3,7 @@ Summary:	TeX-DVI perl module
 Summary(pl):	Modu³ perla TeX-DVI
 Name:		perl-TeX-DVI
 Version:	0.101
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Font-TFM
 Obsoletes:	perl-TeX-DVI-Parse
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
