@@ -27,7 +27,7 @@ TeX-DVI - modu³ do operowania na plikach DVI.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
