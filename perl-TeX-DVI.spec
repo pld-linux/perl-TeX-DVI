@@ -14,7 +14,7 @@ BuildRequires:	perl-Font-TFM
 %requires_eq	perl
 Requires:	%{perl_sitearch}
 Obsoletes:	perl-TeX-DVI-Parse
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TeX-DVI - writes out, parses and prints the content of DVI files.
