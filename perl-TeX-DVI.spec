@@ -3,7 +3,7 @@ Summary:	TeX-DVI perl module
 Summary(pl):	Modu³ perla TeX-DVI
 Name:		perl-TeX-DVI
 Version:	0.101
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
