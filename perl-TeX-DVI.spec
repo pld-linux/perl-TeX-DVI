@@ -8,13 +8,13 @@
 Summary:	TeX::DVI perl module
 Summary(pl):	Modu³ perla TeX::DVI
 Name:		perl-TeX-DVI
-Version:	0.101
-Release:	8
+Version:	0.110
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7f093518b1491785bf32483de312f7fe
+# Source0-md5:	55e0de96f95e1c5ab8e0d2ab4b3989e9
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Font-TFM
 BuildRequires:	rpm-perlprov >= 4.1-13
