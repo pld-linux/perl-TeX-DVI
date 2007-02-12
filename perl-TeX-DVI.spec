@@ -6,7 +6,7 @@
 %define		pdir	TeX
 %define		pnam	DVI
 Summary:	TeX::DVI - write out TeX's DVI (DeVice Independent) file
-Summary(pl):	TeX::DVI - tworzenie TeXowych plikÛw DVI
+Summary(pl.UTF-8):   TeX::DVI - tworzenie TeXowych plik√≥w DVI
 Name:		perl-TeX-DVI
 Version:	0.110
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 TeX::DVI - writes out, parses and prints the content of DVI files.
 
-%description -l pl
-TeX::DVI - modu≥ do operowania na plikach DVI.
+%description -l pl.UTF-8
+TeX::DVI - modu≈Ç do operowania na plikach DVI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
