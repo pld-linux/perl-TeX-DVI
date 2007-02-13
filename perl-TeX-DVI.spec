@@ -6,7 +6,7 @@
 %define		pdir	TeX
 %define		pnam	DVI
 Summary:	TeX::DVI - write out TeX's DVI (DeVice Independent) file
-Summary(pl.UTF-8):   TeX::DVI - tworzenie TeXowych plików DVI
+Summary(pl.UTF-8):	TeX::DVI - tworzenie TeXowych plików DVI
 Name:		perl-TeX-DVI
 Version:	0.110
 Release:	1
