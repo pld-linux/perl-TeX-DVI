@@ -4,7 +4,6 @@
 
 %define		pdir	TeX
 %define		pnam	DVI
-%include	/usr/lib/rpm/macros.perl
 Summary:	TeX::DVI - write out TeX's DVI (DeVice Independent) file
 Summary(pl.UTF-8):	TeX::DVI - tworzenie TeXowych plików DVI
 Name:		perl-TeX-DVI
